@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+.price-badge {
+  position: absolute;
+  top: 4%;
+  right: -5%;
+  background-color: greenyellow;
+  color: white;
+  padding: 5px 7px;
+}
