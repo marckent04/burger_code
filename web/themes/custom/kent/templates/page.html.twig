@@ -71,11 +71,16 @@
 
 
 {% block head %}
-       <div>
+       <div class="container">
+         {{ page.header }}
         <div class="d-flex justify-content-center">
-          {{ page.header }}
+          <h1 class="text-logo">
+            <i class="fas fa-utensils"></i>
+          Burger Code
+          <i class="fas fa-utensils"></i>
+          </h1>
         </div>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-expand-sm bg-transparent">
           {{ page.primary_menu }}
         </nav>          
        </div>

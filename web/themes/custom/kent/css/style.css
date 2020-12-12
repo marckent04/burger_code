@@ -11,3 +11,33 @@
   color: white;
   padding: 5px 7px;
 }
+
+body {
+  background: url("../assets/bg.jpg") !important;
+}
+
+#block-bootstrap-barrio-subtheme-main-menu .nav-link {
+  font-weight: bold !important;
+  text-transform: uppercase;
+  color: white !important;
+}
+
+#block-bootstrap-barrio-subtheme-main-menu .nav-link.active {
+  background-color: #e7480f;
+}
+
+.text-logo {
+  font-family: "Holtwood One SC", sans-serif;
+  color: #e7480f;
+  text-shadow: 2px 2px #ffd301;
+  font-size: 50px;
+  padding: 40px 0px;
+  text-align: center;
+}
+.text-logo .fas {
+  color: #ffd301;
+  text-shadow: 0px 0px #ffd301;
+}
+.nav {
+  margin-bottom: 40px;
+}
